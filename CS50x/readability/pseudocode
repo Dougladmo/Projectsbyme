@@ -1,0 +1,39 @@
+calculate_average
+
+coleman-liau index:
+index = 0.0588 * L - 0.296 * S - 15.8
+
+L is average number of letters per 100 words.
+S is average number of sentences per 100 words.
+
+- longer words means higher reading level.
+- more words per sentence means higher reading level.
+- word is any sequence of characters separated by a space.
+
+
+#01 First create separated functions:
+function to get letters, main function, function to calculate index
+count sentences , count letters
+
+#02 ask for the text.
+
+#03 make the following steps using the functions with text input.
+´
+#04 count letters.
+
+#05 count the words divide everything in groups of 100.
+
+#06 count the senteces
+
+#07 count the average fo letters and senteces per each 100 words.
+
+#08calculate everything using coleman-liau index
+
+#09 And then take the grade and output it.
+
+Output
+
+be sure to round score to nearest whole number
+output should be !grade x", where X is the grade level.
+if output is less than 1, output"before grade 1"
+if output is greater than 16 outout"16+"

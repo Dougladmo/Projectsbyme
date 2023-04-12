@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu endereço</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class=card>
+    <h2 class="title">
+      <center>
+        SEU ENDEREÇO
+    </center>
+    </h2>
+    <form class="forms">
+      <label>Seu CEP:</label>
+      <input type="number" id="cep" name="seu cep" placeholder="00000-000">
+      <label>Número:</label>
+      <input type="number" id="Number" name="seu cep" placeholder="Ex:796"><br>
+      <p>Endereço:</p>
+      <input type="text" id="logradouro" name="endereço"  placeholder="Ex:Avenida Presidente Vargas"><br>
+      <p>Bairro:</p>
+      <input type="text" id="bairro" name="bairro"  placeholder="Ex:Batista campos"><br><br>
+      <label>Cidade:</label>
+      <input type="text" id="localidade" name="cidade" placeholder="Ex:São paulo">
+      <label>Estado:</label>
+      <input type="text" id="uf" name="estado" placeholder="Ex:Bahia"><br><br><br>
+    </form>
+    <center>
+      <button type="button" id= "Submit">Buscar</button>
+   
+      <div>
+        <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank" id="bcep">Não sei meu CEP</a>
+      </div>
+      </center>
+  </div>
+<script src="script.js"></script>
+</body>
+
+</html>
