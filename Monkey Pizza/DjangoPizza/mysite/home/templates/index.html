@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
-    <link rel="shortcut icon" href="{% static 'Assets/icomonkey.png'%}">
     <title>Monkey Pizzaria</title>
 </head>
 
@@ -14,30 +13,30 @@
     <main>
         <header class="header-container">
             <a href="index.html">
-                <img id="logo" src="{% static 'Assets/Design_sem_nome-removebg-preview.png'%}" height="150px" width="150px"
+                <img id="logo" src="Assets/Design_sem_nome-removebg-preview.png" height="150px" width="150px"
                     alt="logo" />
             </a>
 
             <div class="menu">
-                <a href="/home/">HOME</a>
-                <a href="/reservas/">RESERVA</a>
-                <a href="/delivery/">DELIVERY</a>
-                <a href="/cardapio/">CARDÁPIO</a>
-                <a href="/auth/login/">LOGIN</a>
+                <a href="index.html">HOME</a>
+                <a href="#">RESERVA</a>
+                <a href="#">DELIVERY</a>
+                <a href="#">CARDÁPIO</a>
+                <a href="login.html">LOGIN</a>
             </div>
-            <a href="/delivery/"><button type="button" class="deliverybtn" id="PedirBtn"> Peça Online </button></a>
+            <button class="deliverybtn">Pedir Online</button>
         </header>
-        <section class="background-pizza" style="background-image: url({% static 'Assets/879.jpg'%})">
-            <img id="MonkeyPizza" src="{% static 'Assets/Design_sem_nome-removebg-preview.png'%}" alt="logo" />
+        <section class="background-pizza">
+            <img id="MonkeyPizza" src="Assets/Design_sem_nome-removebg-preview.png" alt="logo" />
         </section>
-        <section class="background-promo" style="background-image: url({% static 'Assets/2-PROMOÇOES-site-sem-preço.png'%})">
+        <section class="background-promo">
             <div>
-                <a href="/delivery/"><button type="button" class="deliverybtn" id="PedirBtn"> Peça Online </button></a>
+                <button class="deliverybtn" id="PedirBtn"> Peça Online </button>
             </div>
         </section>
         <section class="About">
             <div>
-                <img id="pizza1" src="{% static 'Assets/pizza.webp'%}" width="760px" />
+                <img id="pizza1" src="Assets/pizza.webp" width="760px" />
             </div>
             <div class="horarios">
                 <h1>SOBRE</h1>
@@ -64,11 +63,16 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div>
-                <img id="pizza2" src="{% static 'Assets/pizzaria.jpg'%}" width="760px" />
+                <img id="pizza2" src="Assets/pizzaria.jpg" width="760px" />
             </div>
         </section>
-        <section class="background-call" style="background-image: url({% static 'Assets/1.png'%})">
-            <img id="MonkeyCall" src="{% static 'Assets/Design_sem_nome-removebg-preview.png'%}" alt="logo" />
+        <section>
+            <div>
+                <img id="call" href="Assets/1.png" width="100" />
+            </div>
+        </section>
+        <section class="background-call">
+            <img id="MonkeyCall" src="Assets/Design_sem_nome-removebg-preview.png" alt="logo" />
         </section>
     </main>
     <footer>
