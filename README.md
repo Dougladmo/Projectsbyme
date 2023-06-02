@@ -12,7 +12,7 @@ futuramento com mais experiencia gostaria muito de focar na área de back-end co
 HTML, CSS, Python(Django), mysql.
 
 # Futuramente está na minha lista estudar: 
-Javascript(angular, react)
-python e bibliotecas py
-bootstrap
+Javascript(angular, react),
+python e bibliotecas py,
+bootstrap,
 banco de dados (postgresql e mysql)
