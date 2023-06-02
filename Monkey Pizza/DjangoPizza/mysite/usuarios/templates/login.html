@@ -1,0 +1,80 @@
+{% load static%}
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/register.css'%}" />
+    <link rel="shortcut icon" href="{% static 'Assets/icomonkey.png'%}">
+    <title>Login</title>
+</head>
+
+<body style="background-image: url({% static 'Assets/879.jpg'%})">
+{% if status == '0' %}
+            <script>
+                alert("Usuário cadastrado com sucesso.");
+            </script>
+        {%endif%}
+    {% if status == '1' %}
+            <script>
+                alert("Email ou senha inválidos.");
+            </script>
+        {%endif%}
+        {% if status == '2' %}
+            <script>
+                alert("Faça login antes de acessar o sistema.");
+            </script>
+        {%endif%}
+    <div class="content">
+        <header class="header-container">
+            <a href="index.html">
+                <img id="monkeylogo" src="{% static 'Assets/Design_sem_nome-removebg-preview.png'%}" height="150px" width="150px"
+                    alt="logo" />
+            </a>
+
+            <div class="menu">
+                <a href="/home/">HOME</a>
+                <a href="/reservas/">RESERVA</a>
+                <a href="/delivery/">DELIVERY</a>
+                <a href="/cardapio/">CARDÁPIO</a>
+            </div>
+            <button class="deliverybtn">Pedir Online</button>
+        </header>
+    <img id="logo" src="{% static 'Assets/Design_sem_nome-removebg-preview.png'%}"/>
+    <div class=card>
+        <h2 class="title">
+            <center>
+                Login
+            </center>
+        </h2>
+        <br>
+        <form class="forms" method="POST" action="{% url 'validar_login' %}"> {% csrf_token %}
+            <p>Email:</p>
+            <input type="email" id="user" name="Email" placeholder="Email..."><br>
+            <p>Senha:</p>
+            <input type="password" id="password" name="Senha" placeholder="Senha..."><br><br>
+        <center>
+            <button type="Submit" id="Submit">Logar</button>
+            </form>
+            <br>
+            <p>OU</p>
+            <a href="/auth/register"> Cadastre-se</a>
+        </center>
+    </div>
+    </div>
+<footer>
+        <div class="Copyright">
+            <h4>© Copyright 2023 - Todos os direitos reservados a Monkey Pizzaria</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+</body>
+
+</html>

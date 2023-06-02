@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/reservas.css'%}">
+    <link rel="shortcut icon" href="{% static 'Assets/icomonkey.png'%}">
+    <title>Reservas</title>
+</head>
+
+<body style="background-image: url({% static 'Assets/879.jpg'%})">
+    <main>
+        <header class="header-container">
+            <a href="index.html">
+                <img id="logo" src="{% static 'Assets/Design_sem_nome-removebg-preview.png'%}" height="150px" width="150px"
+                    alt="logo" />
+            </a>
+
+            <div class="menu">
+                <a href="index.html">HOME</a>
+                <a href="#">RESERVA</a>
+                <a href="#">DELIVERY</a>
+                <a href="menu.html">CARDÁPIO</a>
+                <a href="login.html">LOGOUT</a>
+            </div>
+            <button class="deliverybtn">Pedir Online</button>
+        </header>
+        <section class="content">
+            <div class=card>
+                <center>
+                         {% if status == '1' %}
+            <script>
+                alert("Você pode estar esquecendo de preencher algum campo.");
+            </script>
+        {%endif%}
+        {% if status == '4' %}
+            <script>
+                alert("Internal ERROR.");
+            </script>
+        {%endif%}
+        {% if status == '0' %}
+            <script>
+                alert("Mesa reservada com Sucesso !!, apenas chegue no horário marcado e diga o nome de quem reservou a mesa.");
+            </script>
+        {%endif%}
+                    <h2 class="title">
+                        Faça sua Reserva
+                    </h2>
+                    <form class="forms" method="POST" action="{% url 'valida_reserva' %}">{% csrf_token %}
+                        <p>Seu Nome:</p>
+                        <input type="text" id="user" name="nome" placeholder="Ex: Wilson Pipico"><br>
+                        <p>Quantas pessoas:</p>
+                        <input type="number" id="password" name="qnt_pessoas" placeholder="4"><br><br>
+                        <p>Número Da Mesa:</p>
+                        <input type="number" id="password" name="num_mesa" placeholder="24"><br><br>
+                        <p>Data:</p>
+                        <input type="date" id="password" name="data" placeholder="16/04/2025"><br><br>
+                        <p>Horário:</p>
+                        <input type="time" id="password" name="hora" placeholder="16:30"><br><br>
+                        <button type="Submit" id="Submit" value="Enviar" >Reservar</button>
+                        <br>
+                    </form>
+                </center>
+        </section>
+    </main>
+    <footer>
+        <div class="Copyright">
+            <h4>© Copyright 2023 - Todos os direitos reservados a Monkey Pizzaria</h4>
+        </div>
+    </footer>
+</body>
+
+</html>

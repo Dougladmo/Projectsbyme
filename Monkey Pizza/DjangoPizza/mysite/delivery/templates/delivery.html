@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/delivery.css'%}">
+    <link rel="shortcut icon" href="{% static 'Assets/icomonkey.png'%}">
+    <title>DELIVERY</title>
+</head>
+
+<body style="background-image: url({% static 'Assets/879.jpg'%})">
+    <main>
+        <header class="header-container">
+            <a href="index.html">
+                <img id="logo" src="{% static 'Assets/Design_sem_nome__1_-removebg-preview.png'%}" height="150px" width="150px"
+                    alt="logo" />
+            </a>
+
+            <div class="menu">
+                <a href="index.html">HOME</a>
+                <a href="#">RESERVA</a>
+                <a href="#">DELIVERY</a>
+                <a href="menu.html">CARDÁPIO</a>
+                <a href="login.html">LOGOUT</a>
+            </div>
+            <button class="deliverybtn">Pedir Online</button>
+        </header>
+        <section class="content">
+            <div class=card>
+                <center>
+                    <h2 class="title">
+                        FAÇA SEU PEDIDO
+                    </h2>
+                    <form class="forms">
+                        <p>Seu Nome:</p>
+                        <input type="text" id="user" name="Usuário" placeholder="Ex: Wilson Pipico"><br>
+                        <p>Endereço Completo:</p>
+                        <input type="text" id="password" name="Endereço" placeholder="Tv. monte alegre 519"><br><br>
+                        <p>Qual seu pedido?:</p>
+                        <input type="text" id="password" name="Senha" placeholder="Ex: Pizza G calabresa"><br><br>
+                        <p>Observações:</p>
+                        <input type="text" id="password" name="Senha" placeholder="Ex: tirar cebola, tomate etc"><br><br>
+                        <button type="button" id="Submit">Enviar Pedido</button>
+                        <br>
+                        <br>
+                    </form>
+                </center>
+        </section>
+    </main>
+    <footer>
+        <div class="Copyright">
+            <h4>© Copyright 2023 - Todos os direitos reservados a Monkey Pizzaria</h4>
+        </div>
+    </footer>
+</body>
+
+</html>

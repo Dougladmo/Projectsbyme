@@ -1,0 +1,86 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/register.css'%}"/>
+    <link rel="shortcut icon" href="{% static 'Assets/icomonkey.png'%}">
+    <title>Cadastrar</title>
+</head>
+<body style="background-image: url({% static 'Assets/879.jpg'%})">
+<header class="header-container">
+    <a href="index.html">
+                <img id="monkeylogo" src="{% static 'Assets/Design_sem_nome-removebg-preview.png'%}" height="150px" width="150px"
+                    alt="logo" />
+            </a>
+
+            <div class="menu">
+                <a href="/home/">HOME</a>
+                <a href="/reservas/">RESERVA</a>
+                <a href="/delivery/">DELIVERY</a>
+                <a href="/cardapio/">CARDÁPIO</a>
+                <a href="/auth/sair/">LOGOUT</a>
+            </div>
+            <button class="deliverybtn">Pedir Online</button>
+        </header>
+    <div class="content">
+        {% if status == '1' %}
+            <script>
+                alert("Nome ou Email não podem estar vazios.");
+            </script>
+        {%endif%}
+        {% if status == '2' %}
+            <script>
+                alert("Sua senha precisa no Mínimo 8 digitos.");
+            </script>
+        {%endif%}
+        {% if status == '3' %}
+            <script>
+                alert("Esse nome de usuário Já existe.");
+            </script>
+        {%endif%}
+        {% if status == '4' %}
+            <script>
+                alert("Internal ERROR.");
+            </script>
+        {%endif%}
+        {% if status == '0' %}
+            <script>
+                alert("Usuário Cadastrado com Sucesso !!");
+            </script>
+        {%endif%}
+    <img id="logo" src="{% static 'Assets/Design_sem_nome-removebg-preview.png'%}"/>
+    <div class=card>
+        <center>
+        <h2 class="title">
+
+                Cadastro
+        </h2>
+        <form class="forms" method="POST" action="{% url 'valida_cadastro' %}"> {% csrf_token %}
+            <br>
+            <p>Usuário:</p>
+            <input type="text" id="user" name="Nome" placeholder="Usuário"><br>
+            <p>Digite Seu Email:</p>
+            <input type="email" id="password" name="Email" placeholder="Digite Seu Email"><br><br>
+            <p>Senha:</p>
+            <input type="password" id="password" name="Senha" placeholder="Sua Senha"><br><br>
+            <br>
+            <button type="Submit" id="Submit" value="Enviar">Cadastrar</button>
+            </center>
+        </form>
+    </div>
+    </div>
+<footer>
+        <div class="Copyright">
+            <h4>© Copyright 2023 - Todos os direitos reservados a Monkey Pizzaria</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
+</body>
+</html>

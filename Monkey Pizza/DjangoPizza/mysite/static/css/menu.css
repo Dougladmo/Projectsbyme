@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+}
+.header-container{
+    background-color: #7e1717;
+    box-shadow:1px 1px 30px 1px black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Prompt', sans-serif;
+}
+#logo{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.menu{
+    text-shadow: 2px 2px 8px #000;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+    gap: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.3s;
+}
+a:hover{
+    color: #181616;
+}
+.deliverybtn{
+    margin-right: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    display: block;
+    border: none;
+    background:  #df4732;
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
+    font-family: 'Prompt', sans-serif;
+    text-shadow: 1px 1px 1px black;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .deliverybtn:hover {background-color: #5d9b58;}
+
+  .deliverybtn:active {
+    background-color: darkgreen;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  #cardapio{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: -4px;
+  }
+  footer{
+    margin: 0;
+}
+.Copyright{
+    text-align: center;
+    padding: 20px;
+    background-color: #7e1717;
+    color: white;
+}
