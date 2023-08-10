@@ -7,10 +7,9 @@ React.js, JavaScript.
 
 - [Tom's Jazz](https://github.com/Dougladmo/Tom-Jazz)
 - [DevLink](https://github.com/Dougladmo/DevLink)
-- [Galleria](https://github.com/Dougladmo/photos)
+- [Galleria](https://github.com/Dougladmo/galleria)
 - [Costs](https://github.com/Dougladmo/Costs)
 - [X-men seleção](https://github.com/Dougladmo/X-men)
-- [Relógio Digital](https://github.com/Dougladmo/digital-watch)
 - [Relógio Digital](https://github.com/Dougladmo/digital-watch)
 
 ## 🚀 Interesses futuros: 
