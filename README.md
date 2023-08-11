@@ -2,7 +2,7 @@
 
 ## 👨🏽‍💻 Estou estudando
 
-<strong> REACT.JS </STRONG>
+<strong> REACT.JS </STRONG><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/>
 
 ## Tenho conhecimentos
