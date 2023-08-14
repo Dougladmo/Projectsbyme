@@ -1,6 +1,6 @@
-## ⭐️ Olá, meu nome é Douglas 
+# ⭐️ Olá, meu nome é Douglas 
 
-# 🚀 Desenvolvedor Front-End
+## 🚀 Desenvolvedor Front-End
 
 ## 👨🏽‍💻 Estou estudando
 
