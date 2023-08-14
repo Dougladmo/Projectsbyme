@@ -4,6 +4,11 @@
 
 <strong> REACT.JS </STRONG><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg
+" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg
+" width="40" height="40"/>
 
 ## Tenho conhecimentos
 
@@ -26,6 +31,6 @@ banco de dados (postgresql e MongoDB)
 ## 🙋‍♂️ Sobre mim
 Atualmente estou cursando Bacharel em Ciência da computação na Universidade da Amazônia(UNAMA) em belém/PA.
 Esses projetos são feitos por mim seja para cursos, treinos ou pra trabalhos da faculdade.
-Atualmente possuo conhecimentos tanto na area de front-end.
+Atualmente possuo conhecimentos na area de front-end.
 pretendo começar na área de tecnologia focando na parte fullstack para adquirir conhecimentos de tecnologias tanto front quanto back-end
-futuramento com mais experiencia gostaria muito de focar na área de back-end com Inteligencias artificiais e robotica.
+futuramento com mais experiencia gostaria muito de um dia poder focar na área de Inteligencias artificiais e robotica.
