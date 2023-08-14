@@ -31,7 +31,7 @@ Atualmente possuo conhecimentos na area de front-end.
 pretendo começar na área de tecnologia focando na parte fullstack para adquirir conhecimentos de tecnologias tanto front quanto back-end
 futuramento com mais experiencia gostaria muito de um dia poder focar na área de Inteligencias artificiais e robotica.
 
-## ⭐ Contact me
+## ⭐ Contato
 
 <div>
 <a href="https://instagram.com/Dougladmo" target="_blank"><img src="https://img.shields.io/badge/-gmail-%23E4405F?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
