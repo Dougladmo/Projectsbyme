@@ -1,5 +1,5 @@
 # ⭐️ Olá, meu nome é Douglas
-# 🚀 Desenvolvedor Full-stack
+# 🚀 Desenvolvedor Front-End
 
 ## 👨🏽‍💻 Estou estudando
 
