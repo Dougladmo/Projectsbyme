@@ -35,6 +35,6 @@ futuramento com mais experiencia gostaria muito de um dia poder focar na área d
 ## ⭐ Contato
 
 <div>
-<a href="https://instagram.com/Dougladmo" target="_blank"><img src="https://img.shields.io/badge/-gmail-%23E4405F?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="mailto:Douglasdmoliver@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
+<a href="mailto:Douglasdmoliver@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-gmail-%23E4405F?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="linkedin.com/in/douglas-oliveira-5927751b2/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 </div>
