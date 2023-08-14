@@ -23,7 +23,7 @@
 - [X-men selection](https://github.com/Dougladmo/X-men)
 - [Digital Watch](https://github.com/Dougladmo/digital-watch)
 
- ### Main skills:
+### Main skills:
 ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&logoColor=FF4500&labelColor=0D1117)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=1572B6&labelColor=0D1117)&nbsp;
 ![Django](https://img.shields.io/badge/Django-0D1117?style=for-the-badge&logo=django&logoColor=white)&nbsp;
@@ -31,9 +31,13 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117)&nbsp;
 ![React.js](https://img.shields.io/badge/-React.js-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
 
+### Skills
+
 ### Studying in this moment:
 ![React.js](https://img.shields.io/badge/-React.js-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
 ![Node.JS](https://img.shields.io/badge/-Node.JS-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
+![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)&nbsp;
+
 
 ### About me:
 
