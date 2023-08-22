@@ -1,7 +1,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=483D8B&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=HELLO+WORLD!!,+My+name+is+Douglas+Oliveira;+I'm+a+Junior+Front-end+Developer;I'm+21+years+old;I'm+from+Brazil+🇧🇷;I'm+Studying+Computer+Science+Graduation;Welcome!+:%29)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=9400D3&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+My+name+is+Douglas+Oliveira;I'm+21+years+old;I'm+from+Brazil;I'm+Graduating+Computer+Science;Welcome!+:%29)](https://git.io/typing-svg)
+<br>
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Dougladmo&bg_color=0d1117&color=483D8B&line=4B0082&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">  
@@ -19,7 +19,7 @@
 - [Tom's Jazz](https://github.com/Dougladmo/Tom-Jazz)
 - [DevLink](https://github.com/Dougladmo/DevLink)
 - [Galleria](https://github.com/Dougladmo/galleria)
-- [Costs](https://github.com/Dougladmo/Costs)
+- [Costs](https://github.com/Dougladmo/Costs) - React CRUD
 - [X-men selection](https://github.com/Dougladmo/X-men)
 - [hDC Agency](https://github.com/Dougladmo/hDC-Agency)
 
@@ -43,7 +43,6 @@
 ![React.js](https://img.shields.io/badge/-React.js-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
 ![Node.JS](https://img.shields.io/badge/-Node.JS-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![Express](https://img.shields.io/badge/Express.js-0D1117?style=for-the-badge)&nbsp;
-
 
 ### About me:
 
