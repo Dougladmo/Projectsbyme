@@ -16,12 +16,13 @@
  </div>
 
  ### My Projects:
+- [Instagram](https://github.com/Dougladmo/Clone-insta)
+- [Costs](https://github.com/Dougladmo/Costs) - React CRUD
+- [hDC Agency](https://github.com/Dougladmo/hDC-Agency)
 - [Tom's Jazz](https://github.com/Dougladmo/Tom-Jazz)
 - [DevLink](https://github.com/Dougladmo/DevLink)
-- [Galleria](https://github.com/Dougladmo/galleria)
-- [Costs](https://github.com/Dougladmo/Costs) - React CRUD
 - [X-men selection](https://github.com/Dougladmo/X-men)
-- [hDC Agency](https://github.com/Dougladmo/hDC-Agency)
+- [Galleria](https://github.com/Dougladmo/galleria)
 
 ### Main skills:
 ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&logoColor=FF4500&labelColor=0D1117)&nbsp;
