@@ -17,12 +17,13 @@
 
  ### My Projects:
 - [Instagram](https://github.com/Dougladmo/Clone-insta)
+- [Apple](https://dougladmo.github.io/Clone-apple/)
 - [Costs](https://github.com/Dougladmo/Costs) - React CRUD
+- [Galleria](https://github.com/Dougladmo/galleria)
 - [hDC Agency](https://github.com/Dougladmo/hDC-Agency)
 - [Tom's Jazz](https://github.com/Dougladmo/Tom-Jazz)
 - [DevLink](https://github.com/Dougladmo/DevLink)
 - [X-men selection](https://github.com/Dougladmo/X-men)
-- [Galleria](https://github.com/Dougladmo/galleria)
 
 ### Main skills:
 ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&logoColor=FF4500&labelColor=0D1117)&nbsp;
