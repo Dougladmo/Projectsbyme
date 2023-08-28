@@ -17,7 +17,7 @@
 
  ### My Projects:
 - [Instagram](https://github.com/Dougladmo/Clone-insta)
-- [Apple](https://dougladmo.github.io/Clone-apple/)
+- [Apple](https://github.com/Dougladmo/Clone-apple)
 - [Costs](https://github.com/Dougladmo/Costs) - React CRUD
 - [Galleria](https://github.com/Dougladmo/galleria)
 - [hDC Agency](https://github.com/Dougladmo/hDC-Agency)
